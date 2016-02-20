@@ -1,0 +1,384 @@
+@import url(http://fonts.googleapis.com/css?family=Strait);
+
+/* Principal */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url("../img/fondo2.jpg");
+	font-family: 'Strait';
+	font-size: 16px;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+div.header{
+	margin-top: 0px;
+}
+h2.header {
+	color: #5F6164;
+	font-weight: normal;
+	margin: 0;
+	padding-left: 0.5em;
+	position: relative;
+}
+
+.h2_left{
+	/*border:1px dotted #212121;*/
+	margin-left: 150px;
+	margin-top: -32px;
+	width: 500px;
+}
+
+.h2_right{
+	/*border:1px dotted #212121;*/
+	color: white;
+	margin-left: 850px;
+	margin-top: -27px;
+	width: 500px;
+}
+
+h2.header:before {
+	content: '';
+	background: #323e4a;
+	display: block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -2;
+}
+
+h2.header:after {
+	content: '';
+	background: white;
+	display: block;
+	height: 100%;
+	left: -12px;
+	position: absolute;
+	top: 0;
+	width: 50%;
+	z-index: -1;
+	-webkit-transform: skewX(150deg);
+	   -moz-transform: skewX(150deg);
+	    -ms-transform: skewX(150deg);
+	     -o-transform: skewX(150deg);
+	        transform: skewX(150deg);
+}
+img{
+	margin: 0 auto;
+}
+
+.img{
+	margin-left: 1100px;
+	margin-top: -28px;
+}
+
+.img_2{
+	margin-left: 120px;
+}
+
+div.container{
+	background: url("../img/fondo.jpg");
+	border-radius: 0 0 .5em .5em;
+	height: 700px;
+	margin: 0 auto;
+	width: 80%;
+}
+
+div.side{
+	/*border:1px dotted #212121;*/
+	padding: 10px 0px 0px 0px;
+	width: 16%;
+}
+
+/* SIDE */
+/* The container */
+#Desplegable > ul {
+	display: block;
+	position: relative;
+	margin-top: 20px;
+	width: 150px;
+	padding: 0px 0px 0px 10px;
+}
+
+/* The list elements which contain the links */
+#Desplegable > ul li {
+	display: block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 150px;	
+}
+
+/* General link styling */
+#Desplegable > ul li a {
+	/* Layout */
+	display: block;
+	position: relative;
+	margin: 0;
+	border-top: 1px dotted #fff;
+	border-bottom: 1px dotted #d9d9d9;
+	padding: 11px 20px;
+	width: 110px;
+
+	/* Typography */
+	font-family: 'Strait';
+	color: #3dafea;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 #fff;
+	font-size: 13px;
+	font-weight: 300;
+
+	/* Background & effects */
+	background: #eaeaea;
+}
+
+/* Rounded corners for the first link of the menu/submenus */
+#Desplegable > ul li:first-child>a {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-top: 0;
+}
+
+/* Rounded corners for the last link of the menu/submenus */
+#Desplegable > ul li:last-child>a {
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom: 0;
+}
+
+/* The hover state of the menu/submenu links */
+#Desplegable > ul li>a:hover, #Desplegable > ul li:hover>a {
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+	background: #54cdf1;
+	background: -webkit-linear-gradient(bottom, #54cdf1, #74d7f3); 
+	background:    -moz-linear-gradient(bottom, #54cdf1, #74d7f3);
+	background:     -ms-linear-gradient(bottom, #54cdf1, #74d7f3);
+	background:      -o-linear-gradient(bottom, #54cdf1, #74d7f3);
+	border-color: transparent;
+}
+
+/* The arrow indicating a submenu */
+#Desplegable > ul .has-sub>a::after {
+	content: '';
+	position: absolute;
+	top: 16px;
+	right: 10px;
+	width: 0px;
+	height: 0px;
+
+	/* Creating the arrow using borders */
+	border: 4px solid transparent;
+	border-left: 4px solid #3dafea; 
+}
+
+/* The same arrow, but with a darker color, to create the shadow effect */
+#Desplegable > ul .has-sub>a::before {
+	content: '';
+	position: absolute;
+	top: 17px;
+	right: 10px;
+	width: 0px;
+	height: 0px;
+
+	/* Creating the arrow using borders */
+	border: 4px solid transparent;
+	border-left: 4px solid #fff;
+}
+
+/* Changing the color of the arrow on hover */
+#Desplegable > ul li>a:hover::after, #Desplegable > ul li:hover>a::after {
+	border-left: 4px solid #fff;
+}
+
+#Desplegable > ul li>a:hover::before, #Desplegable > ul li:hover>a::before {
+	border-left: 4px solid rgba(0, 0, 0, .25);
+}
+
+
+/* THE SUBMENUS */
+#Desplegable > ul ul {
+	position: absolute;
+	left: 150px;
+	top: -9999px;
+	padding-left: 5px;
+	opacity: 0;
+	/* The fade effect, created using an opacity transition */
+	-webkit-transition: opacity .3s ease-in;
+	   -moz-transition: opacity .3s ease-in;
+	    -ms-transition: opacity .3s ease-in;
+	     -o-transition: opacity .3s ease-in;
+	        transition: opacity .3s ease-in;
+}
+
+/* Showing the submenu when the user is hovering the parent link */
+#Desplegable > ul li:hover>ul {
+	top: 0px;
+	opacity: 1;
+}
+
+/* FIN SIDE */
+/* CONTENIDO */
+div.contenido{
+	/*border:1px dotted #212121;*/
+	box-shadow: 5em;
+	height: 500px;
+	margin-left: 180px;
+	margin-top: -230px;
+	width: 80%;
+}
+
+div.reset_pass{
+	margin-left: 600px;
+	margin-top: -100px;
+	position: absolute;
+}
+
+/* BOTONES */
+.btn{
+	display: inline-block;
+	padding: 3px 6px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	     -o-user-select: none;
+	        user-select: none;
+}
+
+.btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #333333;
+  text-decoration: none;
+}
+
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+
+.btn-success {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  color: #ffffff;
+  background-color: #47a447;
+  border-color: #398439;
+}
+
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  background-image: none;
+}
+
+/* FIN BOTONES */
+/* INPUTS */
+button, input[type="submit"] {
+	background: #ffa500;
+	border: 1px solid #c9910a;
+	border-bottom: 5px solid #c9910a;
+	border-radius: 0.4em;
+	color: #896008;
+	margin-top: 0.5em;
+	padding: 0.5em 4em;
+	position: relative;
+}
+
+button:hover, input[type="submit"]:hover{
+	background: #ffae1a;
+	border-radius: 0.4em;
+}
+
+button:active, input[type="submit"]:active{
+	background: #ffae1a;
+	border: 1px solid #c9910a;
+	border-bottom: 3px solid #c9910a;
+	border-radius: 0.4em;
+	color: #896008;
+	margin-top: 0.5em;
+	padding: 0.5em 4em;
+}
+
+input[type="text"], select, input[type="email"] {
+	border: 2px solid #cdd1d4;
+	border-radius: 0.3em;
+	box-shadow: inset 0 0px 6px rgba(0,0,0,0.2);
+	font-family: 'Strait';
+	padding: 0.5em;
+	width: 400px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	     -o-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+	height: 2.5em;
+}
+/* FIN INPUTS*/
+
+fieldset{
+	border-radius: .5em;
+}

@@ -1,0 +1,101 @@
+/*HEADER*/
+
+
+
+
+.navbar{
+
+	margin: 0 auto;
+
+	max-width: 90%;
+
+	text-align: center;
+
+}
+
+
+.navbar h1, .texto {
+
+
+
+	display: inline-block;
+
+
+
+	max-width: 100%;
+
+
+
+	vertical-align: middle;
+
+
+
+	padding: 1em;
+
+
+
+}
+
+
+
+
+
+
+
+.texto h2, .texto h3 {
+line-height: 25px;
+letter-spacing: 2px;
+}
+
+
+
+
+
+
+.texto h2{
+
+
+
+	color: #006600;
+
+
+
+	text-shadow: 1px 1px 0px rgba(0,0,0,.2);
+
+
+
+}
+
+
+
+
+
+
+
+.texto h3{
+
+
+
+	color: #1F1F1F;
+
+
+
+	text-shadow: 1px 1px 0px rgba(0,0,0,.2);
+
+
+
+}
+
+
+
+
+
+
+
+.sombra {
+margin: -27px 236px;
+position: absolute;
+width: 64%;
+height: 17px;
+background-image: url("../img/sombra.png");
+}

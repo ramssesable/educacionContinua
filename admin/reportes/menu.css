@@ -1,0 +1,99 @@
+/* main menu styles */
+
+.nav,.nav ul {
+   list-style:none;
+   margin:0;
+   padding:0;
+}
+
+.nav {
+   position:relative;
+}
+
+.nav ul {
+   height:0;
+   left:0;
+   overflow:hidden;
+   position:absolute;
+   top:26px;
+}
+
+.nav li {
+   float:left;
+   position:relative;
+}
+
+.nav li a {
+   background-color:#336633;
+   border:1px solid #336600;
+   color:#FFF;
+   display:block;
+   font-size:12px;
+   line-height:15px;
+   padding:5px 10px;
+   text-decoration:none;
+   -webkit-transition:0.5s;
+      -moz-transition:0.5s;
+        -o-transition:0.5s;
+           transition:0.5s;
+}
+
+.nav li:hover > a {
+   background:#009900;
+   border-color:#6E67A6;
+   color:#fff;
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 95%, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0)));
+   background-image:    -moz-linear-gradient(-90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+   background-image:      -o-linear-gradient(-90deg,rgba(255,255,255,0.5),rgba(255,255,25,0));
+}
+
+.nav li:hover ul.subs {
+   height:auto;
+   width:100px;
+}
+
+.nav ul li {
+   opacity:0;
+   width:100%;
+   -webkit-transition:0.5s;
+      -moz-transition:0.5s;
+        -o-transition:0.5s;
+           transition:0.5s;
+}
+
+.nav li ul li {
+   -webkit-transition-delay:0.5s;
+      -moz-transition-delay:0.5s;
+        -o-transition-delay:0.5s;
+           transition-delay:0.5s;
+}
+
+.nav li:hover ul li {
+   opacity:1;
+   -webkit-transition-delay:0.5s;
+      -moz-transition-delay:0.5s;
+        -o-transition-delay:0.5s;
+           transition-delay:0.5s;
+}
+
+.nav ul li a {
+   background:#336633;
+   border-color:#336600;
+   color:#fff;
+   line-height:1px;
+   -webkit-transition:0.5s;
+      -moz-transition:0.5s;
+        -o-transition:0.5s;
+           transition:0.5s;
+}
+
+.nav li:hover ul li a {
+   line-height:15px;
+}
+
+.nav ul li a:hover {
+   background:#009900;
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 95%, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0)));
+   background-image:    -moz-linear-gradient(-90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+   background-image:      -o-linear-gradient(-90deg,rgba(255,255,255,0.5),rgba(255,255,25,0));
+}

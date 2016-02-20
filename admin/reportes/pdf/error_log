@@ -1,0 +1,46 @@
+[04-Mar-2014 17:58:51] PHP Parse error:  syntax error, unexpected T_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 31
+[05-Mar-2014 17:01:55] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°1</span><br>Fichier : /home8/facultad/public_html/odontologia/admin/reportes/pdf/html2pdf/html2pdf.class.php<br>Ligne : 1251<br><br>La balise <b>&lt;FOOTER&gt;</b> n'existe pas encore.<br><br>Si vous voulez la rajouter, vous devez créer les méthodes <b>o_FOOTER</b> (pour l'ouverture) et <b>c_FOOTER</b> (pour la fermeture) en suivant le modèle des balises existantes.<br><br>De plus, si vous créez ces méthodes, n'hésitez pas à en faire profiter tout le monde en m'écrivant sur webmaster@html2pdf.fr afin qu'elles se retrouvent dans la prochaine version d'HTML2PDF.<br><br>HTML : ...50'&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/table&gt;
+	&lt;footer&gt;
+		&lt;td colspan='4' align='center...
+  thrown in /home8/facultad/public_html/odontologia/admin/reportes/pdf/html2pdf/html2pdf.class.php on line 1251
+[05-Mar-2014 17:01:59] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°1</span><br>Fichier : /home8/facultad/public_html/odontologia/admin/reportes/pdf/html2pdf/html2pdf.class.php<br>Ligne : 1251<br><br>La balise <b>&lt;FOOTER&gt;</b> n'existe pas encore.<br><br>Si vous voulez la rajouter, vous devez créer les méthodes <b>o_FOOTER</b> (pour l'ouverture) et <b>c_FOOTER</b> (pour la fermeture) en suivant le modèle des balises existantes.<br><br>De plus, si vous créez ces méthodes, n'hésitez pas à en faire profiter tout le monde en m'écrivant sur webmaster@html2pdf.fr afin qu'elles se retrouvent dans la prochaine version d'HTML2PDF.<br><br>HTML : ...50'&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/table&gt;
+	&lt;footer&gt;
+		&lt;td colspan='4' align='center...
+  thrown in /home8/facultad/public_html/odontologia/admin/reportes/pdf/html2pdf/html2pdf.class.php on line 1251
+[05-Mar-2014 17:03:49] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°1</span><br>Fichier : /home8/facultad/public_html/odontologia/admin/reportes/pdf/html2pdf/html2pdf.class.php<br>Ligne : 1251<br><br>La balise <b>&lt;FOOTER&gt;</b> n'existe pas encore.<br><br>Si vous voulez la rajouter, vous devez créer les méthodes <b>o_FOOTER</b> (pour l'ouverture) et <b>c_FOOTER</b> (pour la fermeture) en suivant le modèle des balises existantes.<br><br>De plus, si vous créez ces méthodes, n'hésitez pas à en faire profiter tout le monde en m'écrivant sur webmaster@html2pdf.fr afin qu'elles se retrouvent dans la prochaine version d'HTML2PDF.<br><br>HTML : ...50'&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/table&gt;
+	&lt;footer&gt;
+		&lt;td colspan='4' align='center...
+  thrown in /home8/facultad/public_html/odontologia/admin/reportes/pdf/html2pdf/html2pdf.class.php on line 1251
+[05-Mar-2014 17:03:52] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°1</span><br>Fichier : /home8/facultad/public_html/odontologia/admin/reportes/pdf/html2pdf/html2pdf.class.php<br>Ligne : 1251<br><br>La balise <b>&lt;FOOTER&gt;</b> n'existe pas encore.<br><br>Si vous voulez la rajouter, vous devez créer les méthodes <b>o_FOOTER</b> (pour l'ouverture) et <b>c_FOOTER</b> (pour la fermeture) en suivant le modèle des balises existantes.<br><br>De plus, si vous créez ces méthodes, n'hésitez pas à en faire profiter tout le monde en m'écrivant sur webmaster@html2pdf.fr afin qu'elles se retrouvent dans la prochaine version d'HTML2PDF.<br><br>HTML : ...50'&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/table&gt;
+	&lt;footer&gt;
+		&lt;td colspan='4' align='center...
+  thrown in /home8/facultad/public_html/odontologia/admin/reportes/pdf/html2pdf/html2pdf.class.php on line 1251
+[06-Mar-2014 15:43:30] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62
+[06-Mar-2014 15:43:33] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62
+[06-Mar-2014 15:43:37] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62
+[06-Mar-2014 15:43:53] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62
+[06-Mar-2014 15:44:11] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62
+[06-Mar-2014 15:44:12] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62
+[06-Mar-2014 15:44:37] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62
+[06-Mar-2014 15:44:43] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62
+[06-Mar-2014 15:45:03] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62
+[06-Mar-2014 15:45:33] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62
+[06-Mar-2014 15:45:46] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62
+[06-Mar-2014 15:45:48] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62
+[06-Mar-2014 15:45:50] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62
+[06-Mar-2014 15:45:52] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62
+[06-Mar-2014 15:45:55] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62
+[06-Mar-2014 15:46:19] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62
+[06-Mar-2014 15:46:21] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62
+[06-Mar-2014 15:46:22] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62
+[06-Mar-2014 15:46:23] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62
+[09-Mar-2014 21:38:04] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62
+[09-Mar-2014 21:38:09] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home8/facultad/public_html/odontologia/admin/reportes/pdf/index.php on line 62

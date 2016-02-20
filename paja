@@ -1,0 +1,169 @@
+paja
+
+							<div class="columns2">
+
+								<label>Institución donde curso la licenciatura: <small>requerido</small></label>
+
+								<input type="text" name="institucion" id="institucion" placeholder="Institución donde curso la licenciatura" required>
+
+								<input type="hidden" name="email" id="email" value="<?php echo $email; ?>">
+
+					    	</div>
+
+					    	<div class="columns2">
+
+					    		<label>Programa de posgrado que cursó: <small>requerido</small></label>
+
+					    		<select name="posgrado" id="posgrado" required>
+
+					    		<option value="">-- Selecciona --</option>
+
+					    		<option value="2">Especialidad en Endodoncia</option>
+
+					    		<option value="3">Especialidad en Ortodoncia</option>
+
+					    		<option value="4">Especialidad en Periodoncia</option>
+
+					    		<option value="5">Especialidad en Prostodoncia</option>
+
+					    		</select>
+
+					    	</div>
+
+					    	<div class="row">
+
+							<table class="tabla">
+
+								<tr>
+
+									<td colspan="2">
+
+										<label>1. Principal motivo por el cuál realizó el posgrado (Enumere del 1 al 5 conforme a sus preferencias):</label>
+
+									</td>
+
+								</tr>
+
+								<tr>
+
+									<td colspan="2">
+
+										<table>
+
+											<tr>
+
+												<td colspan="6"></td>
+
+												<td>1</td>
+
+												<td>2</td>
+
+												<td>3</td>
+
+												<td>4</td>
+
+												<td>5</td>
+
+											</tr>
+
+											<tr>
+
+												<!--<td align="right"><input type="text" class="input_mini" placeholder="Numero"></td>-->
+
+												<td colspan="6" align="left"><label for="">Para mejorar mi preparación</label></td>
+
+												<td><input type="radio" name="mot_1" id="mot_11" onClick="p11()" value="1" required></td>
+
+												<td><input type="radio" name="mot_1" id="mot_12" onClick="p21()" value="2" required></td>
+
+												<td><input type="radio" name="mot_1" id="mot_13" onClick="p31()" value="3" required></td>
+
+												<td><input type="radio" name="mot_1" id="mot_14" onClick="p41()" value="4" required></td>
+
+												<td><input type="radio" name="mot_1" id="mot_15" onClick="p51()" value="5" required></td>
+
+											</tr>
+
+											<tr>
+
+												<!--<td align="right"><input type="text" class="input_mini" placeholder="Numero"></td>-->
+
+												<td colspan="6" align="left"><label for="">Para desarrollar mi actual ámbito laboral</label></td>
+
+												<td><input type="radio" name="mot_2" id="mot_21" onClick="p12()" value="1" required></td>
+
+												<td><input type="radio" name="mot_2" id="mot_22" onClick="p22()" value="2" required></td>
+
+												<td><input type="radio" name="mot_2" id="mot_23" onClick="p32()" value="3" required></td>
+
+												<td><input type="radio" name="mot_2" id="mot_24" onClick="p42()" value="4" required></td>
+
+												<td><input type="radio" name="mot_2" id="mot_25" onClick="p52()" value="5" required></td>
+
+											</tr>
+
+											<tr>
+
+												<!--<td align="right"><input type="text" class="input_mini" placeholder="Numero"></td>-->
+
+												<td colspan="6" align="left"><label for="">Para acceder a una beca económica</label></td>
+
+												<td><input type="radio" name="mot_3" id="mot_31" onClick="p13()" value="1" required></td>
+
+												<td><input type="radio" name="mot_3" id="mot_32" onClick="p23()" value="2" required></td>
+
+												<td><input type="radio" name="mot_3" id="mot_33" onClick="p33()" value="3" required></td>
+
+												<td><input type="radio" name="mot_3" id="mot_34" onClick="p43()" value="4" required></td>
+
+												<td><input type="radio" name="mot_3" id="mot_35" onClick="p53()" value="5" required></td>
+
+											</tr>
+
+											<tr>
+
+												<!--<td align="right"><input type="text" class="input_mini" placeholder="Numero"></td>-->
+
+												<td colspan="6" align="left"><label for="">Por status</label></td>
+
+												<td><input type="radio" name="mot_4" id="mot_41" onClick="p14()" value="1" required></td>
+
+												<td><input type="radio" name="mot_4" id="mot_42" onClick="p24()" value="2" required></td>
+
+												<td><input type="radio" name="mot_4" id="mot_43" onClick="p34()" value="3" required></td>
+
+												<td><input type="radio" name="mot_4" id="mot_44" onClick="p44()" value="4" required></td>
+
+												<td><input type="radio" name="mot_4" id="mot_45" onClick="p54()" value="5" required></td>
+
+											</tr>
+
+											<tr>
+
+												<!--<td align="right"><input type="text" class="input_mini" placeholder="Numero"></td>-->
+
+												<td align="left" colspan="6"><label for="">Otro, Especifique:</label></td>
+
+												<td><input type="radio" name="mot_5" id="mot_51" onClick="p15()" value="1" required></td>
+
+												<td><input type="radio" name="mot_5" id="mot_52" onClick="p25()" value="2" required></td>
+
+												<td><input type="radio" name="mot_5" id="mot_53" onClick="p35()" value="3" required></td>
+
+												<td><input type="radio" name="mot_5" id="mot_54" onClick="p45()" value="4" required></td>
+
+												<td><input type="radio" name="mot_5" id="mot_55" onClick="p55()" value="5" required></td>
+
+												<td><input type="text" name="mot_6" id="mot_6" placeholder="Especifique otro"></td>
+
+											</tr>
+
+										</table>
+
+									</td>
+
+								</tr>
+
+							</table>
+
+						</div>
