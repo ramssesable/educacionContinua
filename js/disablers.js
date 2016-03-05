@@ -86,5 +86,67 @@ $(document).ready(function() {
 	    $flag33_5 = true;
 	});
 // ***************************** Termina Pregunta 33 ***************************
+
+/* *****************************************************************************
+   ***************************** Sección Checkbox ******************************
+   ***************************************************************************** */
+
+// ***************************** Inicia Pregunta 33 ****************************
+	var contador = 0;
+	$("[name=pre33_6]").click(function() {
+		$val33 = $(this).val();
+		if (!	$(this).attr('checked')) {
+			$("input:radio[value='" + $val33 + "']").removeAttr("disabled");
+			contador--;
+		}else {
+			$("input:radio[value='" + $val33 + "']").attr("disabled","disabled");
+			contador++;
+		}
+		pre33(contador);
+	});
+// ***************************** Termina Pregunta 33 ***************************
 });
+// ||||||| Especial |||||||||
+function pre33(desabilitados) {
+	switch(desabilitados) {
+		case 2:
+			$("[name=pre33_5]").attr("required",true);
+			for (var i = 1; i <= 7; i++) {
+				$("#pre33_5"+i).val(i)
+			}
+			break;
+		case 3:
+			$("[name=pre33_5]").removeAttr("required").val("X");
+			$("[name=pre33_4]").attr("required",true);
+			for (var i = 1; i <= 7; i++) {
+				$("#pre33_4"+i).val(i)
+			}
+			break;
+		case 4:
+			$("[name=pre33_4]").removeAttr("required").val("X");
+			$("[name=pre33_3]").attr("required",true);
+			for (var i = 1; i <= 7; i++) {
+				$("#pre33_3"+i).val(i)
+			}
+			break;
+		case 5:
+			$("[name=pre33_3]").removeAttr("required").val("X");
+			$("[name=pre33_2]").attr("required",true);
+			for (var i = 1; i <= 7; i++) {
+				$("#pre33_2"+i).val(i)
+			}
+			break;
+		case 6:
+			$("[name=pre33_2]").removeAttr("required").val("X");
+			$("[name=pre33_1]").attr("required",true);
+			for (var i = 1; i <= 7; i++) {
+				$("#pre33_1"+i).val(i)
+			}
+			break;
+		case 7:
+			$("[name=pre33_1]").removeAttr("required").val("X");
+			break;
+	}
+}
+// ||||||| Especial |||||||||
 //****************************** Disable options *******************************

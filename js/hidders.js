@@ -41,6 +41,7 @@ $(document).ready(function() {
 	var pre14_area = $("[name=pre14_area]");
 	var pre14_area0 = $("#pre14_area0");
 	var pre14_inst= $("#pre14_inst");
+	var pre14_cual= $("#pre14_cual");
 
 	$('input[type=radio][name=pre14]').change(function() {
         if (this.value == 1) {
@@ -48,12 +49,14 @@ $(document).ready(function() {
 		 	pre14si.show("fast");
 		 	pre14_area.attr("required",true);
 		 	pre14_inst.val(null);
+		 	pre14_cual.val(null);
         }
         else {
 		 	pre14si.hide("fast");
 		 	pre14_area.attr("checked",false).removeAttr("required");
 		 	pre14_area0.val("no");
 		 	pre14_inst.val("no");
+		 	pre14_cual.val("no");
         }
     });
 	// **************** Fin 14 *********************

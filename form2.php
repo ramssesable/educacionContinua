@@ -220,7 +220,16 @@
 						    	<div class="columns2">
 
 						    		<label>¿En que institución?<small>requerido</small>
-						    			<input type="text" name="pre14_inst" id="pre14_inst" placeholder="Proporcione">
+						    			<input type="text" name="pre14_inst" id="pre14_inst" placeholder="Proporcione" required>
+						    		</label>
+						    	</div>
+							</div>
+						    <div class="row">
+
+						    	<div class="columns2">
+
+						    		<label>¿Cuales?<small>requerido</small>
+						    			<input type="text" name="pre14_cual" id="pre14_cual" placeholder="Proporcione" required>
 						    		</label>
 						    	</div>
 							</div>
@@ -249,6 +258,16 @@
 								<label><input type="radio" name="pre17" id="pre17" value="1" required>Usted mismo</label>
 								<label><input type="radio" name="pre17" id="pre17" value="2" required>Padres</label>
 								<label><input type="radio" name="pre17" id="pre17" value="3" required>Beca</label>
+									<select name="pre17_beca" id="pre17_beca" required>
+
+							    		<option value="">-- Selecciona --</option>
+							    		<option value="Beca director">Beca director</option>
+							    		<option value="Conacyt">Conacyt</option>
+							    		<option value="Sindicato">Sindicato</option>
+							    		<option value="Beca Merito">Beca Merito</option>
+							    		<option value="No" hidden>No</option>
+
+						    		</select>
 								<label><input type="radio" name="pre17" id="pre17" value="4" required>Esposo (a)</label>
 								<label><input type="radio" name="pre17" id="pre17" value="5" required>Usted y su Pareja</label>
 								<label><input type="radio" name="pre17" id="pre17" value="6" required>Otro</label>

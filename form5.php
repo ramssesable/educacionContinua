@@ -207,7 +207,7 @@
 						</div>
 						<div class="row">
 							<div class="columns3">
-								<label>41. <small>requerido</small></label>
+								<label>41. Considera que la comunicación con su asesor, fue en general: <small>requerido</small></label>
 
 								<label><input type="radio" name="pre41" id="pre41" value="Excelente" required />Excelente</label>
 								<label><input type="radio" name="pre41" id="pre41" value="Buena" required />Buena</label>
@@ -217,7 +217,7 @@
 						</div>
 						<div class="row">
 							<div class="columns3">
-								<label>42. <small>requerido</small></label>
+								<label>42. En general, en cada entrevista con su asesor las recomendaciones respecto a su trabajo <small>requerido</small></label>
 
 								<label><input type="radio" name="pre42" id="pre42" value="1" required />Siempre permitían el avance</label>
 								<label><input type="radio" name="pre42" id="pre42" value="2" required />La mayoría de las veces permitían el avance</label>

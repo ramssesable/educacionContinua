@@ -80,7 +80,8 @@
 										<td style="padding-right:10px;"><label>Segundo</label></td>
 										<td style="padding-right:10px;"><label>Tercero</label></td>
 										<td style="padding-right:10px;"><label>Cuarto</label></td>
-										<td><label>Quinto</label></td>
+										<td style="padding-right:10px;"><label>Quinto</label></td>
+										<td><label>No aplica</label></td>
 									</tr>
 									<tr>
 										<td colspan="6" align="left"><label>Elaboración de monografías o estados del conocimiento</label></td>
@@ -89,14 +90,16 @@
 										<td><input type="radio" name="pre33_3" id="pre33_31"  value="1" required></td>
 										<td><input type="radio" name="pre33_4" id="pre33_41"  value="1" required></td>
 										<td><input type="radio" name="pre33_5" id="pre33_51"  value="1" required></td>
+										<td><input type="checkbox" name="pre33_6"  value="1" required></td>
 									</tr>
 									<tr>
 										<td colspan="6" align="left"><label>Diseño de proyectos de investigación</label></td>
 										<td><input type="radio" name="pre33_1" id="pre33_12"  value="2" required></td>
 										<td><input type="radio" name="pre33_2" id="pre33_22"  value="2" required></td>
 										<td><input type="radio" name="pre33_3" id="pre33_32"  value="2" required></td>
-										<td><input type="radio" name="pre33_4" id="pre33_32"  value="2" required></td>
-										<td><input type="radio" name="pre33_5" id="pre33_32"  value="2" required></td>
+										<td><input type="radio" name="pre33_4" id="pre33_42"  value="2" required></td>
+										<td><input type="radio" name="pre33_5" id="pre33_52"  value="2" required></td>
+										<td><input type="checkbox" name="pre33_6"  value="2" required></td>
 									</tr>
 									<tr>
 										<td colspan="6" align="left"><label>Trabajo de biblioteca, laboratorio</label></td>
@@ -105,6 +108,7 @@
 										<td><input type="radio" name="pre33_3" id="pre33_33"  value="3" required></td>
 										<td><input type="radio" name="pre33_4" id="pre33_43"  value="3" required></td>
 										<td><input type="radio" name="pre33_5" id="pre33_53"  value="3" required></td>
+										<td><input type="checkbox" name="pre33_6"  value="3" required></td>
 									</tr>
 									<tr>
 										<td colspan="6" align="left"><label>Realización de trabajo de campo</label></td>
@@ -113,6 +117,7 @@
 										<td><input type="radio" name="pre33_3" id="pre33_34"  value="4" required></td>
 										<td><input type="radio" name="pre33_4" id="pre33_44"  value="4" required></td>
 										<td><input type="radio" name="pre33_5" id="pre33_54"  value="4" required></td>
+										<td><input type="checkbox" name="pre33_6"  value="4" required></td>
 									</tr>
 									<tr>
 										<td colspan="6" align="left"><label>Análisis de datos</label></td>
@@ -121,6 +126,7 @@
 										<td><input type="radio" name="pre33_3" id="pre33_35"  value="5" required></td>
 										<td><input type="radio" name="pre33_4" id="pre33_45"  value="5" required></td>
 										<td><input type="radio" name="pre33_5" id="pre33_55"  value="5" required></td>
+										<td><input type="checkbox" name="pre33_6"  value="5" required></td>
 									</tr>
 									<tr>
 										<td colspan="6" align="left"><label>Elaboración de informes de investigación </label></td>
@@ -129,6 +135,7 @@
 										<td><input type="radio" name="pre33_3" id="pre33_36"  value="6" required></td>
 										<td><input type="radio" name="pre33_4" id="pre33_46"  value="6" required></td>
 										<td><input type="radio" name="pre33_5" id="pre33_56"  value="6" required></td>
+										<td><input type="checkbox" name="pre33_6"  value="6" required></td>
 									</tr>
 									<tr>
 										<td colspan="6" align="left"><label>Otro</label></td>
@@ -137,6 +144,7 @@
 										<td><input type="radio" name="pre33_3" id="pre33_37"  value="7" required></td>
 										<td><input type="radio" name="pre33_4" id="pre33_47"  value="7" required></td>
 										<td><input type="radio" name="pre33_5" id="pre33_57"  value="7" required></td>
+										<td><input type="checkbox" name="pre33_6"  value="7" required></td>
 									</tr>
 								</table>
 							</div>

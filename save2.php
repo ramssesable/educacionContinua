@@ -35,10 +35,12 @@
 		else
 			{$pre14_area0= "no";}
 		$pre14_inst = $_POST['pre14_inst'];
+		$pre14_cual = $_POST['pre14_cual'];
 	}else {
 		$pre14_area = "no";
 		$pre14_area0= "no";
 		$pre14_inst = "no";
+		$pre14_cual = "no";
 	}
 	$pre15 		= $_POST['pre15'];
 	$pre16 		= $_POST['pre16'];
@@ -67,9 +69,9 @@
 	$pre25_3	= $_POST['pre25_3'];
 	$pre26 		= $_POST['pre26'];
 
-	$sql = mysql_query("INSERT INTO datos_posgrado(email,posgrado,pre6,pre7,pre8,pre9,pre90,pre10,pre11,pre12,pre13,pre14,pre14_area,pre14_area0,pre14_inst,pre15,pre16,pre17,pre170,pre18,pre19,pre20,pre21,pre22,pre23,pre24_1,pre24_2,pre24_3,pre24_4,pre24_5,pre24_6,pre24_7,pre24_8,pre24_9,pre25_1,pre25_2,pre25_3,pre26) 
+	$sql = mysql_query("INSERT INTO datos_posgrado(email,posgrado,pre6,pre7,pre8,pre9,pre90,pre10,pre11,pre12,pre13,pre14,pre14_area,pre14_area0,pre14_inst,pre14_cual,pre15,pre16,pre17,pre170,pre18,pre19,pre20,pre21,pre22,pre23,pre24_1,pre24_2,pre24_3,pre24_4,pre24_5,pre24_6,pre24_7,pre24_8,pre24_9,pre25_1,pre25_2,pre25_3,pre26) 
 
-		VALUES ('$email','$posgrado','$pre6','$pre7','$pre8','$pre9','$pre90','$pre10','$pre11','$pre12','$pre13','$pre14','$pre14_area','$pre14_area0','$pre14_inst','$pre15','$pre16','$pre17','$pre170','$pre18','$pre19','$pre20','$pre21','$pre22','$pre23','$pre24_1','$pre24_2','$pre24_3','$pre24_4','$pre24_5','$pre24_6','$pre24_7','$pre24_8','$pre24_9','$pre25_1','$pre25_2','$pre25_3','$pre26')",$conexion);
+		VALUES ('$email','$posgrado','$pre6','$pre7','$pre8','$pre9','$pre90','$pre10','$pre11','$pre12','$pre13','$pre14','$pre14_area','$pre14_area0','$pre14_inst','$pre14_cual','$pre15','$pre16','$pre17','$pre170','$pre18','$pre19','$pre20','$pre21','$pre22','$pre23','$pre24_1','$pre24_2','$pre24_3','$pre24_4','$pre24_5','$pre24_6','$pre24_7','$pre24_8','$pre24_9','$pre25_1','$pre25_2','$pre25_3','$pre26')",$conexion);
 
 
 
