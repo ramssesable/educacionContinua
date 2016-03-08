@@ -54,7 +54,7 @@
 					<b>Instrucciones:</b> Agradecemos colocar una 'X' en el recuadro que corresponda a su respuesta,
 					hacer un breve comentario cuando se le solicite aclarar alguna respuesta especifica y seguir las indicaciones en cada pregunta.
 				</p>
-				<form action="save4.php" method="POST">
+				<form action="save5.php" method="POST">
 					<input type="hidden" name="email" id="email" value="<?php echo $email; ?>">
 					<fieldset>
 						<legend>COMPROMISO SOCIAL</legend>

@@ -83,9 +83,7 @@ $(document).ready(function() {
 	var pre36 	= $("[name=pre36]");
 
 	$('input[type=radio][name=pre35]').change(function() {
-        	console.log(this.value);
         if (this.value == "Si") {
-        	console.log("entro");
 		 	pre35si.show("fast");
 		 	pre36.attr("required",true);
         }

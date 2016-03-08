@@ -2,67 +2,44 @@
 	include("conex.php");
 
 	$email         = $_POST['email'];
-	$pub_pos1      = $_POST['pub_pos1'];
-	$pub_pos2      = $_POST['pub_pos2'];
-	$pub_pos3      = $_POST['pub_pos3'];
-	$pub_pos4      = $_POST['pub_pos4'];
-	$pub_pos5      = $_POST['pub_pos5'];
-	$est_nom1      = strtoupper($_POST['est_nom1']);
-	$est_nom2      = strtoupper($_POST['est_nom2']);
-	$est_nom3      = strtoupper($_POST['est_nom3']);
-	$est_inst1     = strtoupper($_POST['est_inst1']);
-	$est_inst2     = strtoupper($_POST['est_inst2']);
-	$est_inst3     = strtoupper($_POST['est_inst3']);
-	$est_fecha1    = $_POST['est_fecha1'];
-	$est_fecha2    = $_POST['est_fecha2'];
-	$est_fecha3    = $_POST['est_fecha3'];
-	$event_nom1    = strtoupper($_POST['event_nom1']);
-	$event_nom2    = strtoupper($_POST['event_nom2']);
-	$event_nom3    = strtoupper($_POST['event_nom3']);
-	$event_inst1   = strtoupper($_POST['event_inst1']);
-	$event_inst2   = strtoupper($_POST['event_inst2']);
-	$event_inst3   = strtoupper($_POST['event_inst3']);
-	$event_fecha1  = $_POST['event_fecha1'];
-	$event_fecha2  = $_POST['event_fecha2'];
-	$event_fecha3  = $_POST['event_fecha3'];
-	$org_nom1  	   = strtoupper($_POST['org_nom1']);
-	$org_nom2  	   = strtoupper($_POST['org_nom2']);
-	$org_nom3  	   = strtoupper($_POST['org_nom3']);
-	$org_doc1  	   = strtoupper($_POST['org_doc1']);
-	$org_doc2  	   = strtoupper($_POST['org_doc2']);
-	$org_doc3  	   = strtoupper($_POST['org_doc3']);
-	$check_1  	   = $_POST['check_1'];
-	$check_2  	   = $_POST['check_2'];
-	$check_3  	   = $_POST['check_3'];
-	$check_4  	   = $_POST['check_4'];
-	$check_5  	   = $_POST['check_5'];
-	$check_6  	   = $_POST['check_6'];
-	$check_7  	   = $_POST['check_7'];
-	$check_8  	   = $_POST['check_8'];
-	$check_9  	   = $_POST['check_9'];
-	$comentario    = $_POST['comentario'];
 
-	$sql = mysql_query("INSERT INTO edu_continua(
-		email,
-		pub_pos1,pub_pos2,pub_pos3,pub_pos4,pub_pos5,
-		est_nom1,est_nom2,est_nom3,
-		est_inst1,est_inst2,est_inst3,
-		est_fecha1,est_fecha2,est_fecha3,
-		event_nom1,event_nom2,event_nom3,
-		event_inst1,event_inst2,event_inst3,
-		event_fecha1,event_fecha2,event_fecha3,
-		org_nom1,org_nom2,org_nom3,
-		org_doc1,org_doc2,org_doc3,
-		check_1,check_2,check_3,check_4,check_5,check_6,check_7,check_8,check_9,
-		comentario) 
-		VALUES ('$email','$pub_pos1','$pub_pos2','$pub_pos3','$pub_pos4','$pub_pos5','$est_nom1','$est_nom2','$est_nom3','$est_inst1','$est_inst2','$est_inst3','$est_fecha1','$est_fecha2','$est_fecha3','$event_nom1','$event_nom2','$event_nom3','$event_inst1','$event_inst2','$event_inst3','$event_fecha1','$event_fecha2','$event_fecha3','$org_nom1','$org_nom2','$org_nom3','$org_doc1','$org_doc2','$org_doc3','$check_1','$check_2','$check_3','$check_4','$check_5','$check_6','$check_7','$check_8','$check_9','$comentario')",$conexion);
-	//print_r($sql);
+	$pre43Col = "";
+	$pre43Val = "";
+	if(isset($_POST['pre43'])){
+		foreach($_POST['pre43'] as $pre43){
+			$pre43Col .= ", pre43_$pre43";
+			$pre43Val .= ", 1";
+		}
+	}
+	$pre44Col = "";
+	$pre44Val = "";
+	if(isset($_POST['pre44'])){
+		foreach($_POST['pre44'] as $pre44){
+			$pre44Col .= ", pre44_$pre44";
+			$pre44Val .= ", 1";
+		}
+	}
+
+	$pre45      = $_POST['pre45'];
+	$pre46      = $_POST['pre46'];
+	$pre47      = $_POST['pre47'];
+	$pre48      = $_POST['pre48'];
+	$pre49      = $_POST['pre49'];
+
+	$sql = mysql_query("INSERT INTO impactoyproductividad(
+		email
+		$pre43Col$pre44Col,
+		pre45,pre46,pre47,pre48,pre49) 
+		VALUES ('$email'
+				$pre43Val$pre44Val
+				'$pre45','$pre46','$pre47','$pre48','$pre49')",$conexion);
+	print_r($sql);
 		$psswd = substr( md5(microtime()), 1, 10);
 		$pwd = md5($psswd);
 
-	$sql2=mysql_query("UPDATE datos_personales SET password='$pwd' WHERE email='$email'");
-
-	if ($sql) {
+	//$sql2=mysql_query("UPDATE datos_personales SET password='$pwd' WHERE email='$email'");
+//		if ($sql) 
+	/*if ($sql) {
 		$cuerpo="Tu datos se han guardado Exitosamente <br>";
 		$cuerpo=$cuerpo."Su Usuario es:<br>";
 		$cuerpo=$cuerpo.$email."<br>";
@@ -86,9 +63,9 @@
 		 if($isdone)
 	            header("Location:index.php?msj=1&email='$email'");
 	        else
-	            header("Location:index.php?msj=2");
-	}
-	else {
-		header("Location:index.php");
-	}
+	            header("Location:index.php?msj=2");*/
+	
+/*	else {
+		header("Location:form6.php");
+	}*/
 ?>

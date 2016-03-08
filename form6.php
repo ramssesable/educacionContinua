@@ -54,7 +54,7 @@
 					<b>Instrucciones:</b> Agradecemos colocar una 'X' en el recuadro que corresponda a su respuesta,
 					hacer un breve comentario cuando se le solicite aclarar alguna respuesta especifica y seguir las indicaciones en cada pregunta.
 				</p>
-				<form action="save4.php" method="POST">
+				<form action="save6.php" method="POST">
 					<input type="hidden" name="email" id="email" value="<?php echo $email; ?>">
 					<fieldset>
 						<legend>IMPACTO DE SUS ESTUDIOS</legend>
@@ -64,31 +64,31 @@
 								<label>43. Considera que sus estudios de posgrado le ayudaron a : <small>requerido</small></label>
 								<table>
 									<tr>
-										<td><input type="checkbox" name="pre43" id="pre43_1" required /></td>
+										<td><input type="checkbox" name="pre43[]" id="pre43_1" value="1" /></td>
 										<td><label for="pre43_1">Contar con  conocimientos  más amplios y a desarrollar  habilidades para poder realizar mejor su trabajo profesional.</label></td>
 									</tr>
 									<tr>
-										<td><input type="checkbox" name="pre43" id="pre43_2" required /></td>
+										<td><input type="checkbox" name="pre43[]" id="pre43_2" value="2" /></td>
 										<td><label for="pre43_2">Adquirir un amplio conocimiento de su área de especialidad para  participar en el desarrollo innovador, en el análisis, y en la adaptación e incorporación a la práctica de los avances del área en cuestión o de aspectos específicos del ejercicio profesional</label></td>
 									</tr>
 									<tr>
-										<td><input type="checkbox" name="pre43" id="pre43_3" required /></td>
+										<td><input type="checkbox" name="pre43[]" id="pre43_3" value="3" /></td>
 										<td><label for="pre43_3">Adquirir herramientas metodológicas y técnicas en vigor para el desarrollo de actividades académicas de alto nivel.</label></td>
 									</tr>
 									<tr>
-										<td><input type="checkbox" name="pre43" id="pre43_4" required /></td>
+										<td><input type="checkbox" name="pre43[]" id="pre43_4" value="4" /></td>
 										<td><label for="pre43_4">Adquirir herramientas metodológicas y técnicas en vigor para el desarrollo de actividades profesionales</label></td>
 									</tr>
 									<tr>
-										<td><input type="checkbox" name="pre43" id="pre43_5" required /></td>
+										<td><input type="checkbox" name="pre43[]" id="pre43_5" value="5" /></td>
 										<td><label for="pre43_5">Formarse como investigador capaz de generar y aplicar el conocimiento científico, humanístico y/o tecnológico en forma original e innovadora.</label></td>
 									</tr>
 									<tr>
-										<td><input type="checkbox" name="pre43" id="pre43_6" required /></td>
+										<td><input type="checkbox" name="pre43[]" id="pre43_6" value="6" /></td>
 										<td><label for="pre43_6">Desarrollar las competencias para dirigir a grupos de investigación</label></td>
 									</tr>
 									<tr>
-										<td><input type="checkbox" name="pre43" id="pre43_7" required /></td>
+										<td><input type="checkbox" name="pre43[]" id="pre43_7" value="7" /></td>
 										<td><label for="pre43_7">Desarrollar las competencias docentes</label></td>
 									</tr>
 								</table>
@@ -100,23 +100,23 @@
 								<label>44. Considera que sus principales aportes a la sociedad hasta ahora ha sido: <small>requerido</small></label>
 								<table>
 									<tr>
-										<td><input type="checkbox" name="pre44" id="pre44_1" required /></td>
+										<td><input type="checkbox" name="pre44[]" id="pre44_1" value="1" /></td>
 										<td><label for="pre44_1">Ser competente profesionalmente</label></td>
 									</tr>
 									<tr>
-										<td><input type="checkbox" name="pre44" id="pre44_2" required /></td>
+										<td><input type="checkbox" name="pre44[]" id="pre44_2" value="2" /></td>
 										<td><label for="pre44_2">Generar empleos para el país</label></td>
 									</tr>
 									<tr>
-										<td><input type="checkbox" name="pre44" id="pre44_3" required /></td>
+										<td><input type="checkbox" name="pre44[]" id="pre44_3" value="3" /></td>
 										<td><label for="pre44_3">Contribuir al desarrollo científico, tecnológico, cultural y/o artístico</label></td>
 									</tr>
 									<tr>
-										<td><input type="checkbox" name="pre44" id="pre44_4" required /></td>
+										<td><input type="checkbox" name="pre44[]" id="pre44_4" value="4" /></td>
 										<td><label for="pre44_4">Ser un ciudadano responsable y honesto</label></td>
 									</tr>
 									<tr>
-										<td><input type="checkbox" name="pre44" id="pre44_5" required /></td>
+										<td><input type="checkbox" name="pre44[]" id="pre44_5" value="5" /></td>
 										<td><label for="pre44_5">Ejercer un liderazgo político comprometido con las causas justas</label></td>
 									</tr>
 								</table>
@@ -153,7 +153,7 @@
 								<label><input type="radio" name="pre47" id="pre47" value="5" required />Sector social (cooperativas, ejidos, sindicatos, etc.).</label>
 								<label><input type="radio" name="pre47" id="pre47" value="6" required />Organizaciones no gubernamentales ni lucrativas</label>
 								<label><input type="radio" name="pre47" id="pre47" value="7" required />Instituciones públicas dedicadas principalmente a la investigación</label>
-								<label><input type="radio" name="pre47" id="pre47" value="8" required /> Instituciones privadas dedicadas principalmente a la investigación</label>
+								<label><input type="radio" name="pre47" id="pre47" value="8" required />Instituciones privadas dedicadas principalmente a la investigación</label>
 								<label><input type="radio" name="pre47" id="pre47" value="9" required />Instituciones dedicadas principalmente a la consultoría y a la prestación de servicios afines</label>
 								<label><input type="radio" name="pre47" id="pre47" value="10" required />Otras empresas o instituciones del sector público</label>
 								<label><input type="radio" name="pre47" id="pre47" value="11" required />Otras empresas o instituciones del sector privado</label>
